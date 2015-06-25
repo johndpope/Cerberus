@@ -10,6 +10,7 @@
 		4704B73E1B241FD3006005F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4704B73D1B241FD3006005F4 /* Constants.swift */; };
 		4B25B86D1B3C1A470014625C /* Day.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BBA7B1B22954B002211E5 /* Day.storyboard */; };
 		4B25B86F1B3C1C400014625C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B25B86E1B3C1C400014625C /* Main.storyboard */; };
+		4B25B8731B3C1EC60014625C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B25B8721B3C1EC60014625C /* RootViewController.swift */; };
 		4B3BBA7F1B22954B002211E5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BBA7E1B22954B002211E5 /* Images.xcassets */; };
 		4B3BBA821B22954B002211E5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B3BBA801B22954B002211E5 /* LaunchScreen.xib */; };
 		4B3BBA8E1B22954C002211E5 /* CerberusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BBA8D1B22954C002211E5 /* CerberusTests.swift */; };
@@ -50,6 +51,7 @@
 		3DF2DAFFBE44472E4C77EA01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4704B73D1B241FD3006005F4 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4B25B86E1B3C1C400014625C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4B25B8721B3C1EC60014625C /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4B3BBA721B22954B002211E5 /* Cerberus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cerberus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BBA761B22954B002211E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B3BBA7C1B22954B002211E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Day.storyboard; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				4B3BBA991B229634002211E5 /* AppDelegate.swift */,
 				4B3BBAAD1B22BDE9002211E5 /* StoryboardIdentifiers.swift */,
 				4704B73D1B241FD3006005F4 /* Constants.swift */,
+				4B25B8721B3C1EC60014625C /* RootViewController.swift */,
 				8B79AD0B1B241CC10057A7B6 /* DayViewController.swift */,
 				4B3BBAA51B22A886002211E5 /* Timeline */,
 				4B3BBAA81B22B551002211E5 /* Events */,
@@ -403,6 +406,7 @@
 			files = (
 				AEDC9A9D1B22BBDB00A2EEE9 /* Event.swift in Sources */,
 				AEDC9A9F1B22BC0000A2EEE9 /* Calendar.swift in Sources */,
+				4B25B8731B3C1EC60014625C /* RootViewController.swift in Sources */,
 				AE59FB421B23460800BBCDA0 /* String+MD5.swift in Sources */,
 				AE7E1AE81B2C572900EE69A5 /* UICollectionViewController+NearestCenterCell.swift in Sources */,
 				4B3BBAAA1B22B6BB002211E5 /* EventsCollectionViewController.swift in Sources */,

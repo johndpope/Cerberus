@@ -35,8 +35,8 @@ class DayViewController: UIViewController, EKCalendarChooserDelegate {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
 
-        navigationController?.navigationBar.setBackgroundImage(UIImage(named: "background"), forBarMetrics: UIBarMetrics.Default)
-        navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont.systemFontOfSize(24)]
+        presentingViewController?.navigationController?.navigationBar.setBackgroundImage(UIImage(named: "background"), forBarMetrics: UIBarMetrics.Default)
+        presentingViewController?.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont.systemFontOfSize(24)]
         updateNavigationBarTitle()
 
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "applicationSignificantTimeChange:", name: UIApplicationSignificantTimeChangeNotification, object: nil)
