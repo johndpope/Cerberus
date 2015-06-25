@@ -7,11 +7,7 @@ public enum CollectionViewCellreuseIdentifier : String {
 }
 
 public enum StoryboardNames : String {
-    case Main = "Main"
-}
-
-public enum TableViewCellreuseIdentifier : String {
-    case LocationCell = "LocationCell"
+    case Day = "Day"
 }
 
 public enum XibNames : String {

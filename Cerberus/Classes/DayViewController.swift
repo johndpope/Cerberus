@@ -3,7 +3,7 @@ import EventKit
 import EventKitUI
 import Timepiece
 
-class MainViewController: UIViewController, EKCalendarChooserDelegate {
+class DayViewController: UIViewController, EKCalendarChooserDelegate {
 
     weak var timelineCollectionViewController: TimelineCollectionViewController?
     weak var eventsCollectionViewController: EventsCollectionViewController?
