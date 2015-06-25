@@ -13,3 +13,7 @@ lane :deploy do
   push_to_git_remote
   clean_build_artifacts
 end
+
+lane :storyboard_ids do
+  sh "cd .. ; bundle exec sbconstants Cerberus/Classes/StoryboardIdentifiers.swift --source-dir Cerberus --swift"
+end
