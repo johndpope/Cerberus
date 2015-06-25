@@ -8,6 +8,7 @@ public enum CollectionViewCellreuseIdentifier : String {
 
 public enum StoryboardNames : String {
     case Day = "Day"
+    case Main = "Main"
 }
 
 public enum XibNames : String {
